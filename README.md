@@ -5,11 +5,17 @@
 * You (as a newly-graduated GIS professional) are to propose a new web-GIS solution that would not cost more than the revenue generated per year over 3 years to run and maintain, meeting the needs identified (sharing parcel property maps).  Do not include labour in costs creating the solution. This is only a rough proposal so do not detail implementation steps. However you must be technically specific and your description must align with how the proposed technology works and how it was taught in the class. 
 * Answer the questions about your solution which meet these above needs given the following criteria and resources identified:
   * Currently some individuals in the local government use QGIS as GIS desktop software, but are no experts. They are open to switch to commercial software if they can have it funded by this solution.
+  * :key: I am choosing to stick with open source data, but not QGIS. I will be creating my own solution modelled after Simcoe County's - utilizing a variety of software.
   * The local government has no server infrastructure and no capacity to host web sites or servers. Their IT department is minimal and only supports windows desktop machines.
-  * The real estate agents need to see parcel ownership boundaries (4,000 parcels polygon records) over some type of aerial image. 
-  * The parcels data from the province are available as a GeoPackage download or as an ArcGIS Server Map Service, your choice. The solution must be updated at least each week with a fresh parcel layer (if necessary). 
+  * :key: We will be implementing Google Cloud Platform to host a VM instance as their server and consequently, GeoServer
+  * The real estate agents need to see parcel ownership boundaries (4,000 parcels polygon records) over some type of aerial image.
+  * :key: Open Layers has the ability to display various basemaps, including aerial imagery
+  * The parcels data from the province are available as a GeoPackage download or as an ArcGIS Server Map Service, your choice. The solution must be updated at least each week with a fresh parcel layer (if necessary).
+  * :key: This solution will use a GeoPackage download. Working in the GCP VM can allow for updates in data.
   * The city also has data for roads (2,200-line segments), parks (23 polygons), address points (5,500 points), which are updated a no more than 6 times per year and would be ideal to show those on the map as well.
-  * If there are any ongoing (monthly/yearly) costs for the proposed solution, Real Estate Agents will need to pay a fee for access to the proposed system. This can recover ongoing monthly costs incurred by the local government. If any monthly costs exists there must be a way to create accounts (security) for each agent to log in on the system to manage access. An estimate of costs is fine, exact figures are not necessary. 
+  * :key: GCP allows for these updates to occur.
+  * If there are any ongoing (monthly/yearly) costs for the proposed solution, Real Estate Agents will need to pay a fee for access to the proposed system. This can recover ongoing monthly costs incurred by the local government. If any monthly costs exists there must be a way to create accounts (security) for each agent to log in on the system to manage access. An estimate of costs is fine, exact figures are not necessary.
+  * :key: GCP cost breakdown below (~$4400/annual and this is with a network security option included)
 * Research a solution meeting these requirements before the exam and create some notes to answer questions on how your proposed solution will work, its limitations, costs and technical overview. Point form will be fine for answers of questions provided during the exam and you will have access to your notes, the internet and any other resources during this portion of the exam.
 
 _________________________________________
@@ -79,7 +85,7 @@ _________________________________________
 
 ## PostgreSQL/PostGIS
 
-### Spatial data / databases is stored here (hosted through GCP)
+### Spatial data / databases is stored here (hosted through GCP).
 
 ## GeoServer
 
