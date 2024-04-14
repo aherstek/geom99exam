@@ -12,12 +12,14 @@
   * If there are any ongoing (monthly/yearly) costs for the proposed solution, Real Estate Agents will need to pay a fee for access to the proposed system. This can recover ongoing monthly costs incurred by the local government. If any monthly costs exists there must be a way to create accounts (security) for each agent to log in on the system to manage access. An estimate of costs is fine, exact figures are not necessary. 
 * Research a solution meeting these requirements before the exam and create some notes to answer questions on how your proposed solution will work, its limitations, costs and technical overview. Point form will be fine for answers of questions provided during the exam and you will have access to your notes, the internet and any other resources during this portion of the exam.
 
+_________________________________________
 # General Notes
 * Simcoe County serves as my inspiration for this solution - I remember exploring this web solution after Shawn introduced it in class (Week 11) and I want to try to recreate an open source solution to fit this local governments needs and requirements.
  * Links to Simcoe County provided in class: https://github.com/county-of-simcoe-gis & https://opengis.simcoe.ca/
 * After exploring Simcoe County's WebGIS solution - I believe that it can be utilized as a baseline idea for this problem statement. Searching for parcel boundaries, roads, parks and addresses, having aerial imagery as a basemap, and all are possible in this solution - which fits our clients criteria. 
 * <img width="619" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/a7644c17-1c15-4b6f-8ffd-146614202c43">
 
+_________________________________________
 # Database / Data Tier - **PostgreSQL/PostGIS**
 
 ## PostgreSQL - https://www.postgresql.org/
@@ -40,6 +42,7 @@
   * Geocoding and Reverse Geocoding: Functions for geocoding and reverse geocoding.
   * Integration: Access and work with PostGIS using third party tools such as QGIS, GeoServer, MapServer, ArcGIS, Tableau.
 
+_________________________________________
 # Server / Middle Tier - **GeoServer and Google Cloud Platform**
 
 ## GeoServer - https://geoserver.org/
@@ -64,29 +67,29 @@
 
 * Grand total: **$374.07/month or $4488.84/year**
 
- 
-
-
-
+_________________________________________
 # Client / WebGIS Tier - **Open Layers**
 
 ## Open Layers - https://openlayers.org/
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
-
+_________________________________________
 # How It All Works Together
 
-## <u>PostgreSQL/PostGIS</u>
+## PostgreSQL/PostGIS
+
 ### Spatial data / databases is stored here (hosted through GCP)
 
 ## GeoServer
+
 ### Take data from the database and pushes it to Open Layers upon request. 
 
 ## Open Layers
+
 ### Receives map data from GeoServer and users can interact with the map.
 
-
+_________________________________________
 # Limitations / Things I Don't Know
 ## Editing Data
 * Not sure how to implement data editing capabilities entirely 
