@@ -77,7 +77,7 @@
 
 # How It All Works Together
 
-## PostgreSQL/PostGIS
+## <u>PostgreSQL/PostGIS</u>
 ### Spatial data / databases is stored here (hosted through GCP)
 
 ## GeoServer
