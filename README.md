@@ -22,5 +22,7 @@
 
 # Server / Middle Tier - **GeoServer and Google Cloud Platform**
 
+## GeoServer
+
 # Client / WebGIS Tier - **Open Layers**
 
