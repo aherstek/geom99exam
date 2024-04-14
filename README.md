@@ -20,9 +20,20 @@
 
 # Database / Data Tier - **PostgreSQL/PostGIS**
 
+##PostgreSQL - https://www.postgresql.org/
+
+##PostGIS - https://postgis.net/
+
+* Extends PostgreSQL capabilities by adding support for storing, indexing, and querying geospatial data.
+
 # Server / Middle Tier - **GeoServer and Google Cloud Platform**
 
-## GeoServer
+## GeoServer - https://geoserver.org/
+
+## GCP - https://cloud.google.com/?hl=en
+
+* Google Cloud's pricing calculator: https://cloud.google.com/products/calculator/?hl=en
 
 # Client / WebGIS Tier - **Open Layers**
 
+## Open Layers - https://openlayers.org/
