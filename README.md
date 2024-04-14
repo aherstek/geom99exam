@@ -29,12 +29,14 @@ _________________________________________
 # Database / Data Tier - **PostgreSQL/PostGIS**
 
 ## PostgreSQL - https://www.postgresql.org/
+:moneybag: Free to download, open source
 
 * _Explored code repository: https://pgpedia.info/ & https://github.com/dhamaniasad/awesome-postgres_
 
 * Open source object-relational database system
 
 ## PostGIS - https://postgis.net/
+:moneybag: Free to download, open source
 
 * _Explored code repository: https://git.osgeo.org/gitea/postgis/postgis_
 
@@ -52,8 +54,10 @@ _________________________________________
 # Server / Middle Tier - **GeoServer and Google Cloud Platform**
 
 ## GeoServer - https://geoserver.org/
+:moneybag: Free to download, open source - can pay for extensions
 
 ## GCP - https://cloud.google.com/?hl=en
+:moneybag: Not free - cost breakdown to follow below
 
 * **Google Cloud's pricing calculator: https://cloud.google.com/products/calculator/?hl=en**
 * My attempt to calculate how much running a GCP VM with storage might be:
@@ -77,6 +81,7 @@ _________________________________________
 # Client / WebGIS Tier - **Open Layers**
 
 ## Open Layers - https://openlayers.org/
+:moneybag: Free, using open sources + JavaScript
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
@@ -84,7 +89,10 @@ _________________________________________
    * Searching ol/source provides you with many options to find an aerial basemap that suits your needs, here are 2 examples:
       * ol/source/OSM - https://openlayers.org/en/latest/apidoc/module-ol_source_OSM-OSM.html
       * ol/source/Google - https://openlayers.org/en/latest/apidoc/module-ol_source_Google-Google.html
-        
+      * <img width="947" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/630996db-c143-4eab-bc5d-66b3943af507">
+
+### Domain
+:moneybag: Not free, cost breakdown below
 * **To create a domain (if needed): https://easydns.com/domains/register-ca-domain/**
    * ~$20 / year to maintain
 
