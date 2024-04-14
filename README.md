@@ -114,7 +114,9 @@ _________________________________________
    * ~$20 / year to maintain
 
 _________________________________________
-# How It All Works Together
+# How It All Works Together (I think?)
+
+<img width="652" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/ad43d812-5b8e-4e90-bcf8-f2b6bf38af4c">
 
 ## PostgreSQL/PostGIS
 
@@ -137,3 +139,5 @@ _________________________________________
 ## Support / Troubleshooting
 * Utilizing _many_ different softwares / services means that if some portion of it is not working / need help figuring something out - you need to determine the source to talk to the appropriate helpline
    * Paid softwares like ESRI have readily accessible help, open source may be a slower process? ESRI built to work seamlessly (in theory, lol) together while combining open source softwares together may be more complex to fix problems in.
+
+## Authentication / Authorization / Security
