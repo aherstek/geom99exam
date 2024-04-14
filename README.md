@@ -81,7 +81,7 @@ _________________________________________
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
 * Client needs to display aerial imagery:
-   * searching ol/source provides you with many options to find an aerial basemap that suits your needs, here are 2 examples:
+   * Searching ol/source provides you with many options to find an aerial basemap that suits your needs, here are 2 examples:
       * ol/source/OSM - https://openlayers.org/en/latest/apidoc/module-ol_source_OSM-OSM.html
       * ol/source/Google - https://openlayers.org/en/latest/apidoc/module-ol_source_Google-Google.html
         
