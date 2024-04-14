@@ -81,7 +81,7 @@ _________________________________________
 # Client / WebGIS Tier - **OpenLayers**
 
 ## OpenLayers - https://openlayers.org/
-:moneybag: Free, using open sources + JavaScript
+:moneybag: Free, using open sources, JavaScript library / APIs
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
@@ -117,6 +117,7 @@ _________________________________________
 # How It All Works Together (I think?)
 
 <img width="652" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/ad43d812-5b8e-4e90-bcf8-f2b6bf38af4c">
+^ and then finally, hosting it on a domain
 
 ## PostgreSQL/PostGIS
 
