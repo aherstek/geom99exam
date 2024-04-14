@@ -143,7 +143,8 @@ _________________________________________
 ## Authentication / Authorization / Security
 * Not sure where to implement a username/password for security... logging into VM is secure I think (only 10 authorized users)
 * I did find IAM (Identity and Access Management) through researching GCP but I am unaware if this suits the clients requirements - https://cloud.google.com/security/products/iam
-   * IAM manages access control by defining who (identity) has what access (role) for which resource. 
+   * IAM manages access control by defining who (identity) has what access (role) for which resource.
+   * :moneybag: ^ free service through GCP
 
 _________________________________________
 # Research / Sources Used
