@@ -1,6 +1,6 @@
 # GEOM99 Exam - Part 1 Notes and Documentation
 
-**Problem Statement**
+## **Problem Statement**
 * Currently, a fictitious Local Government in Ontario creates and prints paper maps of the surveyed boundaries for Real Estate Agents in support of properties for sale. These maps cost real estate agents $60 per request and most just shared as custom-created PDFs from a desktop GIS. The Real Estate Agents are requesting the Local Government information be easier to access though a website and (ideally) would cost less per request. They would prefer a single-fee per year for all requests, versus paying per requests as well. Currently there are about 200 paid map requests per year, or about $12,000 in fees collected per year for the roughly 50 real-estate agents in the city. 
 * You (as a newly-graduated GIS professional) are to propose a new web-GIS solution that would not cost more than the revenue generated per year over 3 years to run and maintain, meeting the needs identified (sharing parcel property maps).  Do not include labour in costs creating the solution. This is only a rough proposal so do not detail implementation steps. However you must be technically specific and your description must align with how the proposed technology works and how it was taught in the class. 
 * Answer the questions about your solution which meet these above needs given the following criteria and resources identified:
