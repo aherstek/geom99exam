@@ -117,7 +117,8 @@ _________________________________________
 # How It All Works Together (I think?)
 
 <img width="652" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/ad43d812-5b8e-4e90-bcf8-f2b6bf38af4c">
-^ and then finally, hosting it on a domain
+
+^ and then hosting it on a domain (forgot that part in my flow chart)
 
 ## PostgreSQL/PostGIS
 
