@@ -52,11 +52,19 @@
     * Rounding up to say it takes 1 day a week to complete, 8 hours x 4 = 32 hours a month on VM
   * Roads (2,200-line segments), parks (23 polygons), address points (5,500 points) updated ~6 / year
     * Rounding up to say this takes 2 days to complete, 16 x 6 = 96 hours a year / 12 months = 8 hours a month
-  
+
   * Both of these tasks add up to 40 hours a month using a VM - I have chosen 1 instance
   * When putting this into the calculator, it says it would be 0.05 of an instance
   * 1 instance = 730 hours ($138.70/month) - this could be the way to go?
      * includes 15gb memory/RAM, 4 vCPUs, machine type: n1-standard-4
+  * * <img width="890" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/638fa8d0-14a3-4f27-aef3-24347368ce84">
+   
+  * I have also opted to add Networking (security) and Cloud Storage (5000 GB)
+  * <img width="886" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/dece94af-ffef-475a-97a6-d92f3c56b717">
+
+* Grand total: **$374.07/month or $4488.84/year**
+
+ 
 
 
 
