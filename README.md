@@ -9,7 +9,7 @@
   * The local government has no server infrastructure and no capacity to host web sites or servers. Their IT department is minimal and only supports windows desktop machines.
   * :key: I will be implementing Google Cloud Platform to host a VM instance as their server and consequently, GeoServer
   * The real estate agents need to see parcel ownership boundaries (4,000 parcels polygon records) over some type of aerial image.
-  * :key: Open Layers has the ability to display various basemaps, including aerial imagery
+  * :key: Open Layers It has the ability to display vmap tiles, vector data and markers loaded from any source as well as various basemaps, including aerial imagery.
   * The parcels data from the province are available as a GeoPackage download or as an ArcGIS Server Map Service, your choice. The solution must be updated at least each week with a fresh parcel layer (if necessary).
   * :key: This solution will use a GeoPackage download. Working in the GCP VM can allow for updates in data.
   * The city also has data for roads (2,200-line segments), parks (23 polygons), address points (5,500 points), which are updated a no more than 6 times per year and would be ideal to show those on the map as well.
@@ -80,6 +80,11 @@ _________________________________________
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
+* Client needs to display aerial imagery:
+   * searching ol/source provides you with many options to find an aerial basemap that suits your needs, here are 2 examples:
+      * ol/source/OSM - https://openlayers.org/en/latest/apidoc/module-ol_source_OSM-OSM.html
+      * ol/source/Google - https://openlayers.org/en/latest/apidoc/module-ol_source_Google-Google.html
+        
 * **To create a domain (if needed): https://easydns.com/domains/register-ca-domain/**
    * ~$20 / year to maintain
 
