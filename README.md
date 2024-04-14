@@ -94,16 +94,19 @@ _________________________________________
       * <img width="947" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/630996db-c143-4eab-bc5d-66b3943af507">
       * <img width="387" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/cd8ba113-8f89-46b3-9bad-bfe7b74d2456">
 
-
 * **Parcel ownership:**
-   * Overlay: https://openlayers.org/en/latest/examples/overlay.html
-   * Vector layer: https://openlayers.org/en/latest/apidoc/module-ol_layer_Vector-VectorLayer.html -- displays vector layer
-   * Vector source: https://openlayers.org/en/latest/apidoc/module-ol_source_Vector-VectorSource.html -- displays vector source info / metadata
+   * ol/layer/vector -  https://openlayers.org/en/latest/apidoc/module-ol_layer_Vector-VectorLayer.html -- displays vector layer
+   * ol/source/vector -  https://openlayers.org/en/latest/apidoc/module-ol_source_Vector-VectorSource.html -- displays vector source info / metadata
 
 * **Roads, parks and address points:**
-   * Vector layer: https://openlayers.org/en/latest/apidoc/module-ol_layer_Vector-VectorLayer.html -- displays vector layer
-   * Vector source: https://openlayers.org/en/latest/apidoc/module-ol_source_Vector-VectorSource.html -- displays vector source info / metadata
+   * ol/layer/vector -  https://openlayers.org/en/latest/apidoc/module-ol_layer_Vector-VectorLayer.html -- displays vector layer
+   * ol/source/vector - https://openlayers.org/en/latest/apidoc/module-ol_source_Vector-VectorSource.html -- displays vector source info / metadata
 
+* **Other useful additions:**
+* There are _tons_ of ways you can customize you map, here are 3 I found through the documentation:
+   * ol/interaction: https://openlayers.org/en/latest/apidoc/module-ol_interaction_Interaction.html -- allows zooming, panning, etc
+   * ol/style: https://openlayers.org/en/latest/apidoc/module-ol_style_Style-Style.html -- change appearance of vector data
+   * ol/interaction/select: https://openlayers.org/en/latest/apidoc/module-ol_interaction_Select-Select.html -- select features on map to see more info about it 
 
 ### Domain
 :moneybag: Not free, cost breakdown below
