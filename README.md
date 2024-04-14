@@ -9,7 +9,7 @@
   * The local government has no server infrastructure and no capacity to host web sites or servers. Their IT department is minimal and only supports windows desktop machines.
   * :key: I will be implementing Google Cloud Platform to host a VM instance as their server and consequently, GeoServer
   * The real estate agents need to see parcel ownership boundaries (4,000 parcels polygon records) over some type of aerial image.
-  * :key: Open Layers It has the ability to display vmap tiles, vector data and markers loaded from any source as well as various basemaps, including aerial imagery.
+  * :key: OpenLayers has the ability to display vmap tiles, vector data and markers loaded from any source as well as various basemaps, including aerial imagery.
   * The parcels data from the province are available as a GeoPackage download or as an ArcGIS Server Map Service, your choice. The solution must be updated at least each week with a fresh parcel layer (if necessary).
   * :key: This solution will use a GeoPackage download. Working in the GCP VM can allow for updates in data.
   * The city also has data for roads (2,200-line segments), parks (23 polygons), address points (5,500 points), which are updated a no more than 6 times per year and would be ideal to show those on the map as well.
@@ -78,9 +78,9 @@ _________________________________________
 * Grand total: **$374.07/month or $4488.84/year**
 
 _________________________________________
-# Client / WebGIS Tier - **Open Layers**
+# Client / WebGIS Tier - **OpenLayers**
 
-## Open Layers - https://openlayers.org/
+## OpenLayers - https://openlayers.org/
 :moneybag: Free, using open sources + JavaScript
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
@@ -122,7 +122,7 @@ _________________________________________
 
 ## GeoServer
 
-### Take data from the database and pushes it to Open Layers upon request. 
+### Take data from the database and pushes it to OpenLayers upon request. 
 
 ## Open Layers
 
