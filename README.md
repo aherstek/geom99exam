@@ -141,3 +141,11 @@ _________________________________________
    * Paid softwares like ESRI have readily accessible help, open source may be a slower process? ESRI built to work seamlessly (in theory, lol) together while combining open source softwares together may be more complex to fix problems in.
 
 ## Authentication / Authorization / Security
+
+# Research / Sources Used
+* JDBC and Geoserver - https://docs.geoserver.org/main/en/user/community/jdbcconfig/configuration.html
+* GeoServer and PostgreSQL compatibility - https://gis.stackexchange.com/questions/413984/finding-compatibility-of-geoserver-versions-to-postgresql-postgis
+* Put an OpenLayers map on a webpage - https://openlayers.org/doc/quickstart.html
+* GeoServer and PostGIS - https://docs.geoserver.org/main/en/user/data/database/postgis.html
+* GeoPackage: getting started: https://www.geopackage.org/guidance/getting-started.html
+* Developing web solutions using open source - https://www.arcgis.com/apps/Cascade/index.html?appid=fc87e9216339415aadeb7d694137bd27
