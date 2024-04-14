@@ -85,11 +85,18 @@ _________________________________________
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
-* Client needs to display aerial imagery:
+### How data might be displayed:
+
+ * **Aerial imagery**:
    * Searching ol/source provides you with many options to find an aerial basemap that suits your needs, here are 2 examples:
       * ol/source/OSM - https://openlayers.org/en/latest/apidoc/module-ol_source_OSM-OSM.html
       * ol/source/Google - https://openlayers.org/en/latest/apidoc/module-ol_source_Google-Google.html
       * <img width="947" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/630996db-c143-4eab-bc5d-66b3943af507">
+
+* **Parcel ownership**
+
+* **Roads, parks and address points**
+
 
 ### Domain
 :moneybag: Not free, cost breakdown below
@@ -112,7 +119,11 @@ _________________________________________
 ### Receives map data from GeoServer and users can interact with the map.
 
 _________________________________________
-# Limitations / Things I Don't Know
-## Editing Data
+# Limitations / Things I Don't Know / Other Thoughts
+## Editing Data - is possible, I just don't completely know the workflow yet
 * Not sure how to implement data editing capabilities entirely 
   * Have researcged using tools like OpenLayers or by GeoServer extensions? If users made changes to the spatial data, would these changes be reflected in the PostgreSQL/PostGIS database?
+
+## Support / Troubleshooting
+* Utilizing _many_ different softwares / services means that if some portion of it is not working / need help figuring something out - you need to determine the source to talk to the appropriate helpline
+   * Paid softwares like ESRI have readily accessible help, open source may be a slower process? ESRI built to work seamlessly (in theory, lol) together while combining open source softwares together may be more complex to fix problems in.
