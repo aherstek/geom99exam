@@ -59,7 +59,7 @@
      * includes 15gb memory/RAM, 4 vCPUs, machine type: n1-standard-4
   * * <img width="890" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/638fa8d0-14a3-4f27-aef3-24347368ce84">
    
-  * I have also opted to add Networking (security) and Cloud Storage (5000 GB)
+  * I have also opted to add Networking for security (10 IP addresses allocated for VM) and Cloud Storage (5000 GB)
   * <img width="886" alt="image" src="https://github.com/aherstek/geom99exam/assets/146446987/dece94af-ffef-475a-97a6-d92f3c56b717">
 
 * Grand total: **$374.07/month or $4488.84/year**
