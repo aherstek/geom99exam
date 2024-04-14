@@ -80,6 +80,9 @@ _________________________________________
 
 * _Explored code repository: https://github.com/openlayers/openlayers_
 
+* **To create a domain (if needed): https://easydns.com/domains/register-ca-domain/**
+   * ~$20 / year to maintain
+
 _________________________________________
 # How It All Works Together
 
