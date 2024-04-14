@@ -71,3 +71,23 @@
 # Client / WebGIS Tier - **Open Layers**
 
 ## Open Layers - https://openlayers.org/
+
+* _Explored code repository: https://github.com/openlayers/openlayers_
+
+
+# How It All Works Together
+
+## PostgreSQL/PostGIS
+### Spatial data / databases is stored here (hosted through GCP)
+
+## GeoServer
+### Take data from the database and pushes it to Open Layers upon request. 
+
+## Open Layers
+### Receives map data from GeoServer and users can interact with the map.
+
+
+# Limitations / Things I Don't Know
+## Editing Data
+* Not sure how to implement data editing capabilities entirely 
+  * Have researcged using tools like OpenLayers or by GeoServer extensions? If users made changes to the spatial data, would these changes be reflected in the PostgreSQL/PostGIS database?
