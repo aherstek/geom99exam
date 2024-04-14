@@ -141,7 +141,11 @@ _________________________________________
    * Paid softwares like ESRI have readily accessible help, open source may be a slower process? ESRI built to work seamlessly (in theory, lol) together while combining open source softwares together may be more complex to fix problems in.
 
 ## Authentication / Authorization / Security
+* Not sure where to implement a username/password for security... logging into VM is secure I think (only 10 authorized users)
+* I did find IAM (Identity and Access Management) through researching GCP but I am unaware if this suits the clients requirements - https://cloud.google.com/security/products/iam
+   * IAM manages access control by defining who (identity) has what access (role) for which resource. 
 
+_________________________________________
 # Research / Sources Used
 * JDBC and Geoserver - https://docs.geoserver.org/main/en/user/community/jdbcconfig/configuration.html
 * GeoServer and PostgreSQL compatibility - https://gis.stackexchange.com/questions/413984/finding-compatibility-of-geoserver-versions-to-postgresql-postgis
