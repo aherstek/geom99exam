@@ -46,7 +46,19 @@
 
 ## GCP - https://cloud.google.com/?hl=en
 
-* Google Cloud's pricing calculator: https://cloud.google.com/products/calculator/?hl=en
+* **Google Cloud's pricing calculator: https://cloud.google.com/products/calculator/?hl=en**
+* My attempt to calculate how much running a GCP VM with storage might be:
+  * ~4000 parcel shapefiles updated ~1 / week
+    * Rounding up to say it takes 1 day a week to complete, 8 hours x 4 = 32 hours a month on VM
+  * Roads (2,200-line segments), parks (23 polygons), address points (5,500 points) updated ~6 / year
+    * Rounding up to say this takes 2 days to complete, 16 x 6 = 96 hours a year / 12 months = 8 hours a month
+  
+  * Both of these tasks add up to 40 hours a month using a VM - I have chosen 1 instance
+  * When putting this into the calculator, it says it would be 0.05 of an instance
+  * 1 instance = 730 hours ($138.70/month) - this could be the way to go?
+     * includes 15gb memory/RAM, 4 vCPUs, machine type: n1-standard-4
+
+
 
 # Client / WebGIS Tier - **Open Layers**
 
