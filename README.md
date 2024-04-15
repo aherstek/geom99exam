@@ -143,9 +143,34 @@ _________________________________________
 _________________________________________
 # Technical Steps To Set Up Solution
 
-## Downloading necessary softwares
-* GeoServer: http://geoserver.org/download/
-* PostgreSQL: https://www.postgresql.org/download/windows/
+1. _In GCP (example to get set up)_
+    * Create an account
+    * Create an instance
+    * Install PostgreSQL/PostGiS and GeoServer on VM
+    * Set up firewall rules
+       * port 5432 for PostgreSQL, port 8080 for GeoServer, and port 80 or 443 for HTTP/HTTPS (I think?)
+
+2. _In PostgreSQL/PostGIS (example to get set up)_
+    * Install PostgreSQL on VM
+    * Add PostGIS extension
+    * Create new database
+    * Import provided GeoPackage data from client
+    * QAQC to verify data uploaded correctly
+
+ 3. _In GeoServer (example to get set up)_
+    * Download GeoServer on VM
+    * Configure the data store (i think?) to connect to PostgreSQL database
+    * Publish layers:
+    * > Set up workspaces > new vector data source > browse to location > save
+    * > Layer preview = see uploaded layers
+    * > Under "all formats" test data is working with GeoJSON
+
+4.   _In Open Layers (with domain) (example to get set up)_
+    * Set up web server (domain creation)
+    * Create HTML page (could use OSM base layer discussed above, etc)
+    * Connect GeoServer layers (WMS or WFS? not sure)
+    * Upload site to server
+    * Access OpenLayers map - test query to ensure data is pulling correctly
 
 _________________________________________
 # Limitations / Things I Don't Know / Other Thoughts
@@ -158,7 +183,8 @@ _________________________________________
    * Paid softwares like ESRI have readily accessible help, open source may be a slower process? ESRI built to work seamlessly (in theory, lol) together while combining open source softwares together may be more complex to fix problems in.
 
 ## Authentication / Authorization / Security
-* Not sure where to implement a username/password for security... logging into VM is secure I think (only 10 authorized users)
+* Not sure where to implement a username/password/etc for security... logging into VM is secure I think (only 10 authorized users)
+* I think GeoServer and PostgreSQL have security configurations?
 * I did find IAM (Identity and Access Management) through researching GCP but I am unaware if this suits the clients requirements - https://cloud.google.com/security/products/iam
    * IAM manages access control by defining who (identity) has what access (role) for which resource.
    * :moneybag: ^ free service through GCP
@@ -173,3 +199,9 @@ _________________________________________
 * Developing web solutions using open source - https://www.arcgis.com/apps/Cascade/index.html?appid=fc87e9216339415aadeb7d694137bd27
 * Simcoe County and OpenLayers: https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer/blob/master/README.md
 * Simcoe County deployment guide: https://github.com/county-of-simcoe-gis/SimcoeCountyDeploymentGuide
+* Shawn's "Reduce ArcGIS Online credit usage by having Geoserver host your data!": https://www.youtube.com/watch?v=2y4pEC-Cj6I
+* Setting up PostgreSQL database: https://www.microfocus.com/documentation/idol/IDOL_12_0/MediaServer/Guides/html/English/Content/Getting_Started/Configure/_TRN_Set_up_PostgreSQL.htm
+* How to Connect PostgreSQL Database (PostGIS) with Geoserver: https://www.youtube.com/watch?v=hpRJ8R9LB5E
+* How to add WMS layer in OpenLayers from GeoServer?: https://gis.stackexchange.com/questions/58870/how-to-add-wms-layer-in-openlayers-from-geoserver
+* How To Add WMS Layers From Geoserver To OpenLayers Map: https://www.youtube.com/watch?v=wCH7rvHFpCY
+* How To Add and Style WFS (Vector) Layer From Geoserver To OpenLayers Map: https://www.youtube.com/watch?v=01TwGJ2dl_o
