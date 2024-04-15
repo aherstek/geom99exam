@@ -186,14 +186,15 @@ _________________________________________
 
 _________________________________________
 # Limitations / Things I Don't Know / Other Thoughts
-## Editing Data - is possible, I just don't completely know the workflow yet
-* Not sure how to implement data editing capabilities entirely 
-  * Have researcged using tools like OpenLayers or by GeoServer extensions? If users made changes to the spatial data, would these changes be reflected in the PostgreSQL/PostGIS database?
+## Editing Data - is possible, I just don't completely know the workflow yet (especially if needing to do analysis etc)
+* Not sure how to implement data editing capabilities entirely
+  * Have researched using tools like OpenLayers or by GeoServer extensions? If users made changes to the spatial data, would these changes be reflected in the PostgreSQL/PostGIS database correctly?
+  * Having a hard time grasping this without being able to trial it first hand!
 
 ## WMS (Web Map Service) and WFS (Web Feature Service)
-* Still confused on these 2 terms when referencing GeoPackage/GeoServer
-* WMS = PNG / JPEG?
-* WFS = vector data?
+* Still confused on these 2 terms when referencing GeoPackage/GeoServer... I think:
+    * WMS = PNG / JPEG?
+    * WFS = vector data?
 
 
 ## Support / Troubleshooting
