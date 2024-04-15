@@ -21,7 +21,7 @@
 
 # April 15 11:50am Addendum
 
-* Rereading the requirements... I think I may have misinterpreted/overlooked _"no capacity to host web sites or servers"_ - which in that case eliminates my domain idea... or maybe i'm okay? Now I'm second guessing my solution :sad:
+* Rereading the requirements... I think I may have misinterpreted/overlooked _"no capacity to host web sites or servers"_ - which in that case eliminates my domain idea... or maybe i'm okay? Now I'm second guessing my solution :cry:
 * Utilizing QGIS as a desktop software I think would still work?
 * QGIS website documentation: https://www.qgis.org/en/site/ / https://www.qgis.org/en/docs/index.html
 * It is possible to use QGIS with GeoServer: https://www.youtube.com/watch?v=DuZFjBPHtDE
