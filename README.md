@@ -133,6 +133,13 @@ _________________________________________
 ### Receives map data from GeoServer and users can interact with the map.
 
 _________________________________________
+# Technical Steps To Set Up Solution
+
+## Downloading necessary softwares
+* GeoServer: http://geoserver.org/download/
+* PostgreSQL: https://www.postgresql.org/download/windows/
+
+_________________________________________
 # Limitations / Things I Don't Know / Other Thoughts
 ## Editing Data - is possible, I just don't completely know the workflow yet
 * Not sure how to implement data editing capabilities entirely 
@@ -156,3 +163,5 @@ _________________________________________
 * GeoServer and PostGIS - https://docs.geoserver.org/main/en/user/data/database/postgis.html
 * GeoPackage: getting started: https://www.geopackage.org/guidance/getting-started.html
 * Developing web solutions using open source - https://www.arcgis.com/apps/Cascade/index.html?appid=fc87e9216339415aadeb7d694137bd27
+* Simcoe County and OpenLayers: https://github.com/county-of-simcoe-gis/SimcoeCountyWebViewer/blob/master/README.md
+* Simcoe County deployment guide: https://github.com/county-of-simcoe-gis/SimcoeCountyDeploymentGuide
