@@ -231,3 +231,5 @@ _________________________________________
 * GeoServer Security: https://docs.geoserver.org/latest/en/user/security/index.html
 * Secure a layer in geoserver with password using OpenLayers: https://stackoverflow.com/questions/39019915/secure-a-layer-in-geoserver-with-password-using-openlayers
 * What are differences between WMS, WFS, WCS, WPS?: https://gis.stackexchange.com/questions/80948/what-are-differences-between-wms-wfs-wcs-wps --> helpful graphic!
+* Shawn's "Getting GeoServer Running on Windows": https://www.youtube.com/playlist?list=PLa8md6Vlz64JqOvr5P0Hua3LTVsmTpajF
+* WebGIS With Opensauce: https://github.com/jeafreezy/WebGIS-with-Opensauce / https://jeafreezy.hashnode.dev/intro-web-gis-with-opensauce-stack
