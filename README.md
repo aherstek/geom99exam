@@ -57,6 +57,9 @@ _________________________________________
 ## GeoServer - https://geoserver.org/
 :moneybag: Free to download, open source - can pay for extensions
 
+* Can be configured to talk to PostgreSQL/PostGIS to retrieve data and push it to OpenLayers map upon request / when queried.
+* Acts as middle tier to retrieve spatial data (from database) and display it for the user (client side)
+
 ## GCP - https://cloud.google.com/?hl=en
 :moneybag: Not free - cost breakdown to follow below
 
