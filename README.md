@@ -133,6 +133,10 @@ _________________________________________
 
 ### Receives map data from GeoServer and users can interact with the map.
 
+## Google Cloud Platform
+
+### Hosts PostgreSQL/PostGIS and GeoServer
+
 _________________________________________
 # Technical Steps To Set Up Solution
 
