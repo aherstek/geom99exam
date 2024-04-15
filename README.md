@@ -19,6 +19,17 @@
   * :key: GCP cost breakdown below (~$4400/annual and this is with a network security option included)
 * Research a solution meeting these requirements before the exam and create some notes to answer questions on how your proposed solution will work, its limitations, costs and technical overview. Point form will be fine for answers of questions provided during the exam and you will have access to your notes, the internet and any other resources during this portion of the exam.
 
+# April 15 11:50am Addendum
+
+* Rereading the requirements... I think I may have misinterpretted _"no capacity to host web sites or servers"_ - which in that case eliminates my domain idea.
+* Utilizing QGIS as a desktop software I think would still work?
+* QGIS website documentation: https://www.qgis.org/en/site/ / https://www.qgis.org/en/docs/index.html
+* It is possible to use QGIS with GeoServer: https://www.youtube.com/watch?v=DuZFjBPHtDE
+* Also has an OpenLayers plug in: https://www.youtube.com/watch?v=TvzYAg2Zvek
+* QGIS OpenLayers plug in via Python: https://plugins.qgis.org/plugins/openlayers_plugin/
+
+
+
 _________________________________________
 # General Notes
 * Simcoe County serves as my inspiration for this solution - I remember exploring this web solution after Shawn introduced it in class (Week 11) and I want to try to recreate an open source solution to fit this local governments needs and requirements.
