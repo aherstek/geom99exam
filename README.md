@@ -185,6 +185,9 @@ _________________________________________
 ## Authentication / Authorization / Security
 * Not sure where to implement a username/password/etc for security... logging into VM is secure I think (only 10 authorized users)
 * I think GeoServer and PostgreSQL have security configurations?
+    * GeoServer features = HTTPS support, authentication, access control, OAuth (from website)
+    * Can also set up passwords in GeoSever/OpenLayers config?
+OpenLayers Security: Secure your OpenLayers application by using HTTPS and implementing proper authentication and authorization mechanisms if required.
 * I did find IAM (Identity and Access Management) through researching GCP but I am unaware if this suits the clients requirements - https://cloud.google.com/security/products/iam
    * IAM manages access control by defining who (identity) has what access (role) for which resource.
    * :moneybag: ^ free service through GCP
@@ -205,3 +208,5 @@ _________________________________________
 * How to add WMS layer in OpenLayers from GeoServer?: https://gis.stackexchange.com/questions/58870/how-to-add-wms-layer-in-openlayers-from-geoserver
 * How To Add WMS Layers From Geoserver To OpenLayers Map: https://www.youtube.com/watch?v=wCH7rvHFpCY
 * How To Add and Style WFS (Vector) Layer From Geoserver To OpenLayers Map: https://www.youtube.com/watch?v=01TwGJ2dl_o
+* GeoServer Security: https://docs.geoserver.org/latest/en/user/security/index.html
+* Secure a layer in geoserver with password using OpenLayers: https://stackoverflow.com/questions/39019915/secure-a-layer-in-geoserver-with-password-using-openlayers
