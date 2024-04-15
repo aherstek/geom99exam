@@ -19,8 +19,9 @@
   * :key: GCP cost breakdown below (~$4400/annual and this is with a network security option included)
 * Research a solution meeting these requirements before the exam and create some notes to answer questions on how your proposed solution will work, its limitations, costs and technical overview. Point form will be fine for answers of questions provided during the exam and you will have access to your notes, the internet and any other resources during this portion of the exam.
 
-# April 15 11:50am Addendum
 
+_________________________________________
+# April 15 11:50am Addendum
 * Rereading the requirements... I think I may have misinterpreted/overlooked _"no capacity to host web sites or servers"_ - which in that case eliminates my domain idea... or maybe i'm okay? Now I'm second guessing my solution :cry:
 * Utilizing QGIS as a desktop software I think would still work?
 * QGIS website documentation: https://www.qgis.org/en/site/ / https://www.qgis.org/en/docs/index.html
@@ -28,7 +29,7 @@
 * Also has an OpenLayers plug in: https://www.youtube.com/watch?v=TvzYAg2Zvek
 * QGIS OpenLayers plug in via Python: https://plugins.qgis.org/plugins/openlayers_plugin/
 
-
+* Or, if not able to host a website directly - they could utilize something similar to what we do with Fleming? (VDI - I think is VMWare?)
 
 _________________________________________
 # General Notes
