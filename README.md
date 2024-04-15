@@ -229,3 +229,4 @@ _________________________________________
 * How To Add and Style WFS (Vector) Layer From Geoserver To OpenLayers Map: https://www.youtube.com/watch?v=01TwGJ2dl_o
 * GeoServer Security: https://docs.geoserver.org/latest/en/user/security/index.html
 * Secure a layer in geoserver with password using OpenLayers: https://stackoverflow.com/questions/39019915/secure-a-layer-in-geoserver-with-password-using-openlayers
+* What are differences between WMS, WFS, WCS, WPS?: https://gis.stackexchange.com/questions/80948/what-are-differences-between-wms-wfs-wcs-wps --> helpful graphic!
