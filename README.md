@@ -8,7 +8,7 @@
   * :key: I am choosing to stick with open source data, but not QGIS. I will be creating my own solution modelled after Simcoe County's - utilizing a variety of software.
   * The local government has no server infrastructure and no capacity to host web sites or servers. Their IT department is minimal and only supports windows desktop machines.
   * :key: I will be implementing Google Cloud Platform to host a VM instance as their server and consequently, GeoServer.
-  * :key: Using GCP VM would not necessarily require them to have their own physical server infrastructure, as a GCP VM can be managed them remotely (access via internet) - no maintenance of their own server hardware per say.
+  * :key: Using GCP VM would not necessarily require them to have their own physical server infrastructure, as a GCP VM can be managed by them remotely (access via internet) - no maintenance of their own server hardware per say.
   * The real estate agents need to see parcel ownership boundaries (4,000 parcels polygon records) over some type of aerial image.
   * :key: OpenLayers has the ability to display vmap tiles, vector data and markers loaded from any source as well as various basemaps, including aerial imagery.
   * The parcels data from the province are available as a GeoPackage download or as an ArcGIS Server Map Service, your choice. The solution must be updated at least each week with a fresh parcel layer (if necessary).
