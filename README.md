@@ -184,6 +184,7 @@ _________________________________________
 
 ## Authentication / Authorization / Security
 * Not sure where to implement a username/password/etc for security... logging into VM is secure I think (only 10 authorized users)
+* Unsure what firewall settings should be used.
 * I think GeoServer and PostgreSQL have security configurations?
     * GeoServer features = HTTPS support, authentication, access control, OAuth (from website)
     * Can also set up passwords in GeoSever/OpenLayers config?
