@@ -189,6 +189,12 @@ _________________________________________
 * Not sure how to implement data editing capabilities entirely 
   * Have researcged using tools like OpenLayers or by GeoServer extensions? If users made changes to the spatial data, would these changes be reflected in the PostgreSQL/PostGIS database?
 
+## WMS (Web Map Service) and WFS (Web Feature Service)
+* Still confused on these 2 terms when referencing GeoPackage/GeoServer
+* WMS = PNG / JPEG?
+* WFS = vector data?
+
+
 ## Support / Troubleshooting
 * Utilizing _many_ different softwares / services means that if some portion of it is not working / need help figuring something out - you need to determine the source to talk to the appropriate helpline
    * Paid softwares like ESRI have readily accessible help, open source may be a slower process? ESRI built to work seamlessly (in theory, lol) together while combining open source softwares together may be more complex to fix problems in.
