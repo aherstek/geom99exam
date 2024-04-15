@@ -166,11 +166,11 @@ _________________________________________
     * > Under "all formats" test data is working with GeoJSON
 
 4.   _In Open Layers (with domain) (example to get set up)_
-    * Set up web server (domain creation)
-    * Create HTML page (could use OSM base layer discussed above, etc)
-    * Connect GeoServer layers (WMS or WFS? not sure)
-    * Upload site to server
-    * Access OpenLayers map - test query to ensure data is pulling correctly
+     * Set up web server (domain creation)
+     * Create HTML page (could use OSM base layer discussed above, etc)
+     * Connect GeoServer layers (WMS or WFS? not sure)
+     * Upload site to server
+     * Access OpenLayers map - test query to ensure data is pulling correctly
 
 _________________________________________
 # Limitations / Things I Don't Know / Other Thoughts
